@@ -8,12 +8,12 @@ class NumSubscriber(Node):
         super().__init__("num_subscriber")
         self.subscription = self.create_subscription(
             Int32MultiArray,
-            "num_topic",
+            "num_topic",#接收发布者的信息（注意要同名）
             self.listener_callback,
             10
         )
 
-    def listener_callback(self, msg):
+    def listener_callback(self, msg):#接受信息函数
         a = msg.data[0]
         b = msg.data[1]
         sum_ab = a + b
