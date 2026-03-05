@@ -1,0 +1,41 @@
+[0.532s] Invoking command in '/home/d/num_ros2/src/my_num_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/d/num_ros2/src/build/my_num_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/d/num_ros2/src/install/my_num_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_num_package build --build-base /home/d/num_ros2/src/build/my_num_package/build install --record /home/d/num_ros2/src/build/my_num_package/install.log --single-version-externally-managed install_data
+[0.692s] running egg_info
+[0.693s] creating ../build/my_num_package/my_num_package.egg-info
+[0.703s] writing ../build/my_num_package/my_num_package.egg-info/PKG-INFO
+[0.703s] writing dependency_links to ../build/my_num_package/my_num_package.egg-info/dependency_links.txt
+[0.703s] writing entry points to ../build/my_num_package/my_num_package.egg-info/entry_points.txt
+[0.703s] writing requirements to ../build/my_num_package/my_num_package.egg-info/requires.txt
+[0.703s] writing top-level names to ../build/my_num_package/my_num_package.egg-info/top_level.txt
+[0.703s] writing manifest file '../build/my_num_package/my_num_package.egg-info/SOURCES.txt'
+[0.724s] reading manifest file '../build/my_num_package/my_num_package.egg-info/SOURCES.txt'
+[0.724s] writing manifest file '../build/my_num_package/my_num_package.egg-info/SOURCES.txt'
+[0.724s] running build
+[0.724s] running build_py
+[0.724s] creating /home/d/num_ros2/src/build/my_num_package/build
+[0.724s] creating /home/d/num_ros2/src/build/my_num_package/build/lib
+[0.724s] creating /home/d/num_ros2/src/build/my_num_package/build/lib/my_num_package
+[0.725s] copying my_num_package/__init__.py -> /home/d/num_ros2/src/build/my_num_package/build/lib/my_num_package
+[0.725s] copying my_num_package/subscriber.py -> /home/d/num_ros2/src/build/my_num_package/build/lib/my_num_package
+[0.725s] copying my_num_package/publisher.py -> /home/d/num_ros2/src/build/my_num_package/build/lib/my_num_package
+[0.725s] running install
+[0.729s] running install_lib
+[0.739s] creating /home/d/num_ros2/src/install/my_num_package/lib/python3.12/site-packages/my_num_package
+[0.739s] copying /home/d/num_ros2/src/build/my_num_package/build/lib/my_num_package/__init__.py -> /home/d/num_ros2/src/install/my_num_package/lib/python3.12/site-packages/my_num_package
+[0.739s] copying /home/d/num_ros2/src/build/my_num_package/build/lib/my_num_package/subscriber.py -> /home/d/num_ros2/src/install/my_num_package/lib/python3.12/site-packages/my_num_package
+[0.739s] copying /home/d/num_ros2/src/build/my_num_package/build/lib/my_num_package/publisher.py -> /home/d/num_ros2/src/install/my_num_package/lib/python3.12/site-packages/my_num_package
+[0.739s] byte-compiling /home/d/num_ros2/src/install/my_num_package/lib/python3.12/site-packages/my_num_package/__init__.py to __init__.cpython-312.pyc
+[0.739s] byte-compiling /home/d/num_ros2/src/install/my_num_package/lib/python3.12/site-packages/my_num_package/subscriber.py to subscriber.cpython-312.pyc
+[0.740s] byte-compiling /home/d/num_ros2/src/install/my_num_package/lib/python3.12/site-packages/my_num_package/publisher.py to publisher.cpython-312.pyc
+[0.740s] running install_data
+[0.740s] creating /home/d/num_ros2/src/install/my_num_package/share/ament_index
+[0.740s] creating /home/d/num_ros2/src/install/my_num_package/share/ament_index/resource_index
+[0.740s] creating /home/d/num_ros2/src/install/my_num_package/share/ament_index/resource_index/packages
+[0.740s] copying resource/my_num_package -> /home/d/num_ros2/src/install/my_num_package/share/ament_index/resource_index/packages
+[0.740s] copying package.xml -> /home/d/num_ros2/src/install/my_num_package/share/my_num_package
+[0.741s] running install_egg_info
+[0.751s] Copying ../build/my_num_package/my_num_package.egg-info to /home/d/num_ros2/src/install/my_num_package/lib/python3.12/site-packages/my_num_package-0.0.0-py3.12.egg-info
+[0.751s] running install_scripts
+[0.823s] Installing publisher script to /home/d/num_ros2/src/install/my_num_package/lib/my_num_package
+[0.823s] Installing subscriber script to /home/d/num_ros2/src/install/my_num_package/lib/my_num_package
+[0.823s] writing list of installed files to '/home/d/num_ros2/src/build/my_num_package/install.log'
+[0.840s] Invoked command in '/home/d/num_ros2/src/my_num_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/d/num_ros2/src/build/my_num_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/d/num_ros2/src/install/my_num_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_num_package build --build-base /home/d/num_ros2/src/build/my_num_package/build install --record /home/d/num_ros2/src/build/my_num_package/install.log --single-version-externally-managed install_data

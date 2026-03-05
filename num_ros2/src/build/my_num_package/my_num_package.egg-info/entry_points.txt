@@ -1,0 +1,3 @@
+[console_scripts]
+publisher = my_num_package.publisher:main
+subscriber = my_num_package.subscriber:main
